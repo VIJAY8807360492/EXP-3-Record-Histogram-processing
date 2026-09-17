@@ -78,7 +78,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('lion.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('model img.jpg', cv2.IMREAD_GRAYSCALE)
 
 plt.imshow(img, cmap='gray')
 plt.title('Original Image')
@@ -128,7 +128,7 @@ plt.show()
 ## 6. Read the image in color mode and convert to HSV.
 
 ```python
-img = cv2.imread('parrot.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('model img.jpg', cv2.IMREAD_COLOR)
 
 img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 ```
